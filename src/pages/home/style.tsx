@@ -71,8 +71,10 @@ export const StackSection = styled("div", {
 });
 
 export const StackCards = styled("div", {
-  width: "80vw",
+  width: "100vw",
   display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
   flexWrap: "wrap",
   gap: "3rem",
   marginTop: "$4",
@@ -84,6 +86,8 @@ export const StackCards = styled("div", {
   "@mobile": {
     width: "100vw",
     display: "flex",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
     flexWrap: "nowrap",
     overflow: "auto",
 
