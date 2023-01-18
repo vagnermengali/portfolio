@@ -94,13 +94,13 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
       brand4: "linear-gradient(90deg,#ff1a4c 0%,#c0183c 100%)",
       brand5: "#ff1a4ceb",
 
-      grey0: "#101112",
+      grey0: "#101111",
       grey1: "#101112",
       grey2: "#a1a1a1",
       grey3: "#8a8a8a",
       grey4: "#F8F9FA",
       grey5: "#ffffff",
-      grey6: "#00ff00",
+      grey6: "#ff1a4c1f",
 
       socialInstagram: "#CF50AC",
       socialFacebook: "#506CCF",

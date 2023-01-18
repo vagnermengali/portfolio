@@ -5,7 +5,7 @@ import { Button } from "@/styles/Buttons";
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
-  backgroundColor: "$grey1",
+  backgroundColor: "$grey6",
   padding: "8rem 0 8rem 0",
 
   "@tablet": {
@@ -71,7 +71,7 @@ export const StackSection = styled("div", {
 });
 
 export const StackCards = styled("div", {
-  width: "100vw",
+  width: "80vw",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",

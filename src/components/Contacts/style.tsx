@@ -1,7 +1,7 @@
 import { styled } from "@/styles/stitches.config";
 
 export const ContactSection = styled("section", {
-  background: "$grey0",
+  background: "$grey6",
   padding: "$section 0",
   "@mobile": {
     padding: "$sectionMobile 0",
