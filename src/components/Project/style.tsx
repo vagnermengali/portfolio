@@ -11,8 +11,8 @@ export const ProjectStack = styled(Flex, {
 });
 
 export const ProjectStackTech = styled("span", {
-  backgroundColor: "$grey1",
-  color: "$grey2",
+  background: "$brand4",
+  color: "$grey5",
   padding: "0  0.5rem",
   borderRadius: "$2",
 });
@@ -23,7 +23,7 @@ export const ProjectLinks = styled(Flex, {
 
 export const ProjectLink = styled("a", {
   fontSize: "1rem",
-  color: "$grey2",
+  color: "$grey3",
   fontWeight: "500",
   marginRight: "$2",
   display: "flex",

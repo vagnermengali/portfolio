@@ -60,13 +60,13 @@ export const Project = (): JSX.Element => {
               </Text>
               {repository.language ? (
                 <ProjectStackTech>
-                  <Text color="grey2" type="body2">
+                  <Text color="grey5" type="body2">
                     {repository.language}
                   </Text>
                 </ProjectStackTech>
               ) : (
                 <ProjectStackTech>
-                  <Text color="grey2" type="body2">
+                  <Text color="grey5" type="body2">
                     Primary language not identified
                   </Text>
                 </ProjectStackTech>

@@ -36,11 +36,14 @@ export const colors = {
     brand3: {
       color: "$brand3",
     },
+    brand4: {
+      color: "$brand4",
+    },
     brand5: {
       color: "$brand5",
     },
     brand7: {
-      color: "$brand5",
+      color: "$brand7",
     },
     grey1: {
       color: "$grey1",
@@ -76,6 +79,7 @@ export const globalStyles = globalCss({
   },
   html: {
     scrollBehavior: "smooth",
+    backgroundColor: "#101112",
   },
   a: { textDecoration: "none" },
 });
@@ -84,15 +88,19 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
 
   const theme = createTheme({
     colors: {
-      brand1: "#623CEA",
-      brand2: "#311E75",
+      brand1: "#ff1a4c",
+      brand2: "#ff1a4ceb",
+      brand3: "linear-gradient(#ff1a4c 0%,#9e1331 100%)",
+      brand4: "linear-gradient(90deg,#ff1a4c 0%,#c0183c 100%)",
+      brand5: "#ff1a4ceb",
 
-      grey0: "#0A0A0B",
-      grey1: "#121214",
-      grey2: "#868E96",
-      grey3: "#E9ECEF",
+      grey0: "#101112",
+      grey1: "#101112",
+      grey2: "#a1a1a1",
+      grey3: "#8a8a8a",
       grey4: "#F8F9FA",
-      grey5: "#F8F9FA",
+      grey5: "#ffffff",
+      grey6: "#00ff00",
 
       socialInstagram: "#CF50AC",
       socialFacebook: "#506CCF",

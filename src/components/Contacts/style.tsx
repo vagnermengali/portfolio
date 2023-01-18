@@ -1,7 +1,7 @@
 import { styled } from "@/styles/stitches.config";
 
 export const ContactSection = styled("section", {
-  background: "$grey1",
+  background: "$grey0",
   padding: "$section 0",
   "@mobile": {
     padding: "$sectionMobile 0",
@@ -65,13 +65,13 @@ export const ContactCardImage = styled("div", {
   justifyContent: "center",
 
   ["&.wpp"]: {
-    background: "linear-gradient(180deg, #50C571 0%, #50CF9A 100%)",
+    background: "$brand3",
   },
   ["&.email"]: {
-    background: "linear-gradient(180deg, #BD3B9B 0%, #EE5BC7 100%)",
+    background: "$brand3",
   },
   ["&.linkedin"]: {
-    background: "linear-gradient(180deg, #4E73FF 0%, #506CCF 100%)",
+    background: "$brand3",
   }
 });
 

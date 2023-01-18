@@ -1,21 +1,13 @@
 import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css } from "@stitches/react";
-
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
-import backgroundImg from "@/public/static/img/background/header-bg.svg";
 
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
   backgroundColor: "$grey1",
-  padding: "12rem 0 8rem 0",
-  backgroundImage: `url(${backgroundImg})`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "right",
-  backgroundAttachment: "fixed",
-  borderBottom: "2px solid $grey5",
+  padding: "8rem 0 8rem 0",
+
   "@tablet": {
     backgroundPosition: "right -10% center",
   },
@@ -79,10 +71,10 @@ export const StackSection = styled("div", {
 });
 
 export const StackCards = styled("div", {
-  display: "grid",
-  gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  padding: "3rem 0",
-  gap: "6rem",
+  width: "80vw",
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "3rem",
   marginTop: "$4",
 
   "@tablet": {
@@ -90,11 +82,17 @@ export const StackCards = styled("div", {
   },
 
   "@mobile": {
-    gridTemplateColumns: "1fr 1fr",
+    width: "100vw",
+    display: "flex",
+    flexWrap: "nowrap",
+    overflow: "auto",
+
   },
 
   "@mobileLittle": {
+    width: "100vw",
     display: "flex",
+    flexWrap: "nowrap",
     overflow: "auto",
     margin: "0 -1rem",
     paddingInline: "1rem",
